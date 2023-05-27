@@ -1,0 +1,16 @@
+{
+  "name": "typescript-solutions",
+  "version": "1.0.0",
+  "description": "Solutions to CodeWars challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Mason Kleinsorge",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

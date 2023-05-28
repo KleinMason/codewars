@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/550498447451fbbd7600041c
+
 export function comp(a1: number[] | null, a2: number[] | null): boolean {
   if (!a1 || !a2) return false;
   let dict: {[key: number]: number} = {};

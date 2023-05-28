@@ -3,9 +3,11 @@ import { comp } from "./challenges/AreTheyTheSame";
 
 export class Main {
   run = () => {
-    let a = [121, 144, 19, 161, 19, 144, 19, 11];
-    let b = [121, 14641, 20736, 361, 25921, 361, 20736, 361];
-    let rslt = comp(a, b);
+    let rslt = this.testing(10);
     console.log('rslt', rslt);
+  }
+
+  testing = (n: number): number => {
+    return n * (n + 1) / 2;
   }
 }
